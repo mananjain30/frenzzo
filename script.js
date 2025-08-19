@@ -132,21 +132,17 @@ const products = [
                 gallery: [
                     "images/Black_Jainex_Raw/Lumbar_Support/LSBLACK1.png",
                     "images/Black_Jainex_Raw/Lumbar_Support/LSBLACK2.png",
-                    "images/Black_Jainex_Raw/Lumbar_Support/LSBLACK3.png",
-                    "images/Black_Jainex_Raw/Lumbar_Support/LSBLACK4.png",
-                    "images/Black_Jainex_Raw/Lumbar_Support/LSBLACK5.png"
+                    "images/Black_Jainex_Raw/Lumbar_Support/LSBLACK3.png"
                 ]
             },
             { 
                 name: "Beige", 
                 code: "#F5F5DC",
-                image: "images/Beige_Jainex_Amazon/Beige_Lumbor_Support/LSBEIGE1.png",
+                image: "images/Beige_Jainex_Amazon/Beige_Lumbar_Support/LSBEIGE1.png",
                 gallery: [
-                    "images/Beige_Jainex_Amazon/Beige_Lumbor_Support/LSBEIGE1.png",
-                    "images/Beige_Jainex_Amazon/Beige_Lumbor_Support/LSBEIGE2.png",
-                    "images/Beige_Jainex_Amazon/Beige_Lumbor_Support/LSBEIGE3.png",
-                    "images/Beige_Jainex_Amazon/Beige_Lumbor_Support/LSBEIGE4.png",
-                    "images/Beige_Jainex_Amazon/Beige_Lumbar_Support/LSBEIGE5.png"
+                    "images/Beige_Jainex_Amazon/Beige_Lumbar_Support/LSBEIGE1.png",
+                    "images/Beige_Jainex_Amazon/Beige_Lumbar_Support/LSBEIGE2.png",
+                    "images/Beige_Jainex_Amazon/Beige_Lumbar_Support/LSBEIGE3.png"
                 ]
             },
             { 
@@ -156,14 +152,13 @@ const products = [
                 gallery: [
                     "images/Tan_Jainex_Amazon/Tan_Lumbar_Support/LSTAN1.png",
                     "images/Tan_Jainex_Amazon/Tan_Lumbar_Support/LSTAN2.png",
-                    "images/Tan_Jainex_Amazon/Tan_Lumbar_Support/LSTAN3.png",
-                    "images/Tan_Jainex_Amazon/Tan_Lumbar_Support/LSTAN4.png",
-                    "images/Tan_Jainex_Amazon/Tan_Lumbar_Support/LSTAN5.png"
+                    "images/Tan_Jainex_Amazon/Tan_Lumbar_Support/LSTAN3.png"
                 ]
             },
             { 
                 name: "Coffee", 
                 code: "#6F4E37",
+                image: "images/Coffee_Jainex_Amazon/Coffee_Lumbar_Support/LSCOFF1.png",
                 image: "images/Coffee_Jainex_Amazon/Coffee_Lumbor_Support/LSCOFF1.png",
                 gallery: [
                     "images/Coffee_Jainex_Amazon/Coffee_Lumbor_Support/LSCOFF1.png",
@@ -247,12 +242,12 @@ const products = [
             { 
                 name: "Beige", 
                 code: "#F5F5DC",
-                image: "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pillow/TCBEIGE1.png",
+                image: "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pilllow/TCBEIGE1.png",
                 gallery: [
-                    "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pillow/TCBEIGE1.png",
-                    "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pillow/TCBEIGE2.png",
-                    "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pillow/TCBEIGE3.png",
-                    "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pillow/TCBEIGE4.png",
+                    "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pilllow/TCBEIGE1.png",
+                    "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pilllow/TCBEIGE2.png",
+                    "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pilllow/TCBEIGE3.png",
+                    "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pilllow/TCBEIGE4.png",
                     "images/Beige_Jainex_Amazon/Beige_Travel_Neck_Pillow/TCBEIGE5.png"
                 ]
             },
@@ -354,8 +349,9 @@ const products = [
             { 
                 name: "Beige", 
                 code: "#F5F5DC",
-                image: "images/Beige_Jainex_Amazon/Beige_Armrest/ARBEIGE1.png",
+                image: "images/Beige_Jainex_Amazon/Beige_Armrest/ARBEIGE6.png",
                 gallery: [
+                    "images/Beige_Jainex_Amazon/Beige_Armrest/ARBEIGE6.png",
                     "images/Beige_Jainex_Amazon/Beige_Armrest/ARBEIGE1.png",
                     "images/Beige_Jainex_Amazon/Beige_Armrest/ARBEIGE2.png",
                     "images/Beige_Jainex_Amazon/Beige_Armrest/ARBEIGE3.png",
@@ -658,72 +654,80 @@ const products = [
         reviewCount: 231,
         description: "Relieve tailbone pain and improve sitting posture with our ergonomic coccyx seat cushion. Perfect for office chairs, car seats, or wheelchairs.",
         // Default to first color's image
-        image: "images/Black_Jainex_Raw/Coccyx_Seat_Cushion/CSBLACK1.png",
+        image: "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK3.png",
         // Color-specific images
         colors: [
             { 
                 name: "Black", 
                 code: "#000000",
-                image: "images/Black_Jainex_Raw/Coccyx_Seat_Cushion/CSBLACK1.png",
+                image: "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK3.png",
                 gallery: [
-                    "images/Black_Jainex_Raw/Coccyx_Seat_Cushion/CSBLACK1.png",
-                    "images/Black_Jainex_Raw/Coccyx_Seat_Cushion/CSBLACK2.png",
-                    "images/Black_Jainex_Raw/Coccyx_Seat_Cushion/CSBLACK3.png",
-                    "images/Black_Jainex_Raw/Coccyx_Seat_Cushion/CSBLACK4.png",
-                    "images/Black_Jainex_Raw/Coccyx_Seat_Cushion/CSBLACK5.png"
+                    "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK3.png",
+                    "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK2.png",
+                    "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK1.png",
+                    "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK4.png",
+                    "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK5.png",
+                    "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK6.png",
+                    "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK7.png",
+                    "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK8.png",
+                    "images/Black_Jainex_Raw/Coccyx_Seat_Cusion/CSBLACK9.png"
                 ]
             },
             { 
                 name: "Beige", 
                 code: "#F5F5DC",
-                image: "images/Beige_Jainex_Amazon/Beige_Small_Headrest/SHRBEIGE1.png",
+                image: "images/Beige_Jainex_Amazon/Beige_Coccyx_Seat_Cushion/CSBEIGE1.png",
                 gallery: [
-                    "images/Beige_Jainex_Amazon/Beige_Small_Headrest/SHRBEIGE1.png",
-                    "images/Beige_Jainex_Amazon/Beige_Small_Headrest/SHRBEIGE2.png",
-                    "images/Beige_Jainex_Amazon/Beige_Small_Headrest/SHRBEIGE3.png",
-                    "images/Beige_Jainex_Amazon/Beige_Small_Headrest/SHRBEIGE4.png",
-                    "images/Beige_Jainex_Amazon/Beige_Small_Headrest/SHRBEIGE5.png"
-                ]
-            },
-            { 
-                name: "Tan", 
-                code: "#D2B48C",
-                image: "images/Tan_Jainex_Amazon/Tan_Small_Head_Rest/SHRTAN1.png",
-                gallery: [
-                    "images/Tan_Jainex_Amazon/Tan_Small_Head_Rest/SHRTAN1.png",
-                    "images/Tan_Jainex_Amazon/Tan_Small_Head_Rest/SHRTAN2.png",
-                    "images/Tan_Jainex_Amazon/Tan_Small_Head_Rest/SHRTAN3.png",
-                    "images/Tan_Jainex_Amazon/Tan_Small_Head_Rest/SHRTAN4.png",
-                    "images/Tan_Jainex_Amazon/Tan_Small_Head_Rest/SHRTAN5.png"
+                    "images/Beige_Jainex_Amazon/Beige_Coccyx_Seat_Cushion/CSBEIGE1.png",
+                    "images/Beige_Jainex_Amazon/Beige_Coccyx_Seat_Cushion/CSBEIGE2.png",
+                    "images/Beige_Jainex_Amazon/Beige_Coccyx_Seat_Cushion/CSBEIGE3.png",
+                    "images/Beige_Jainex_Amazon/Beige_Coccyx_Seat_Cushion/CSBEIGE4.png",
+                    "images/Beige_Jainex_Amazon/Beige_Coccyx_Seat_Cushion/CSBEIGE5.png",
+                    "images/Beige_Jainex_Amazon/Beige_Coccyx_Seat_Cushion/CSBEIGE6.png"
                 ]
             },
             { 
                 name: "Coffee", 
                 code: "#6F4E37",
-                image: "images/Coffee_Jainex_Amazon/Coffee_Small_Headrest/SHRCOFF1.png",
+                image: "images/Coffee_Jainex_Amazon/Coffee_Coccyx_Seat_Cushion/CSCOFF1.png",
                 gallery: [
-                    "images/Coffee_Jainex_Amazon/Coffee_Small_Headrest/SHRCOFF1.png",
-                    "images/Coffee_Jainex_Amazon/Coffee_Small_Headrest/SHRCOFF2.png",
-                    "images/Coffee_Jainex_Amazon/Coffee_Small_Headrest/SHRCOFF3.png",
-                    "images/Coffee_Jainex_Amazon/Coffee_Small_Headrest/SHRCOFF4.png",
-                    "images/Coffee_Jainex_Amazon/Coffee_Small_Headrest/SHRCOFF5.png"
+                    "images/Coffee_Jainex_Amazon/Coffee_Coccyx_Seat_Cushion/CSCOFF1.png",
+                    "images/Coffee_Jainex_Amazon/Coffee_Coccyx_Seat_Cushion/CSCOFF2.png",
+                    "images/Coffee_Jainex_Amazon/Coffee_Coccyx_Seat_Cushion/CSCOFF3.png",
+                    "images/Coffee_Jainex_Amazon/Coffee_Coccyx_Seat_Cushion/CSCOFF4.png",
+                    "images/Coffee_Jainex_Amazon/Coffee_Coccyx_Seat_Cushion/CSCOFF5.png",
+                    "images/Coffee_Jainex_Amazon/Coffee_Coccyx_Seat_Cushion/CSCOFF6.png"
                 ]
             },
             { 
                 name: "Grey", 
                 code: "#808080",
-                image: "images/Grey_Jainex_Amazon/Small_Headrest/SHRGREY1.png",
+                image: "images/Grey_Jainex_Amazon/Coccyx_Seat/CSGREY1.png",
                 gallery: [
-                    "images/Grey_Jainex_Amazon/Small_Headrest/SHRGREY1.png",
-                    "images/Grey_Jainex_Amazon/Small_Headrest/SHRGREY2.png",
-                    "images/Grey_Jainex_Amazon/Small_Headrest/SHRGREY3.png",
-                    "images/Grey_Jainex_Amazon/Small_Headrest/SHRGREY4.png",
-                    "images/Grey_Jainex_Amazon/Small_Headrest/SHRGREY5.png"
+                    "images/Grey_Jainex_Amazon/Coccyx_Seat/CSGREY1.png",
+                    "images/Grey_Jainex_Amazon/Coccyx_Seat/CSGREY2.png",
+                    "images/Grey_Jainex_Amazon/Coccyx_Seat/CSGREY3.png",
+                    "images/Grey_Jainex_Amazon/Coccyx_Seat/CSGREY4.png",
+                    "images/Grey_Jainex_Amazon/Coccyx_Seat/CSGREY5.png",
+                    "images/Grey_Jainex_Amazon/Coccyx_Seat/CSGREY6.png"
+                ]
+            },
+            { 
+                name: "Tan", 
+                code: "#D2B48C",
+                image: "images/Tan_Jainex_Amazon/Tan_Coccyx/CSTAN1.png",
+                gallery: [
+                    "images/Tan_Jainex_Amazon/Tan_Coccyx/CSTAN1.png",
+                    "images/Tan_Jainex_Amazon/Tan_Coccyx/CSTAN2.png",
+                    "images/Tan_Jainex_Amazon/Tan_Coccyx/CSTAN3.png",
+                    "images/Tan_Jainex_Amazon/Tan_Coccyx/CSTAN4.png",
+                    "images/Tan_Jainex_Amazon/Tan_Coccyx/CSTAN5.png",
+                    "images/Tan_Jainex_Amazon/Tan_Coccyx/CSTAN6.png"
                 ]
             }
         ],
         // Set main image to first color's image
-        image: "images/Black_Jainex_Raw/Coccyx_Seat_Cushion/CSBLACK1.png",
+        image: "images/Black_Jainex_Raw/Coccyx_Seat_Cushion/CSBLACK3.png",
         description: "Experience ultimate comfort with our premium coccyx seat cushion, designed to provide perfect support for your spine and coccyx during travel or relaxation.",
         features: [
             "Ergonomic Orthopedic Design: Reduces pressure on the tailbone and promotes healthy posture.",
@@ -783,13 +787,14 @@ const products = [
             { 
                 name: "Beige", 
                 code: "#F5F5DC",
-                image: "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE1.png",
+                image: "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE6.png",
                 gallery: [
-                    "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE1.png",
-                    "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE2.png",
-                    "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE3.png",
+                    "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE6.png",
+                    "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE5.png",
                     "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE4.png",
-                    "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE5.png"
+                    "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE3.png",
+                    "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE2.png",
+                    "images/Beige_Jainex_Amazon/Beige_Cushion_Kit/CKBEIGE1.png"
                 ]
             },
             { 
@@ -819,7 +824,7 @@ const products = [
             { 
                 name: "Grey", 
                 code: "#808080",
-                image: "images/Grey_Jainex_Raw/Grey_Cushion_Kit/CKGREY1.png",
+                image: "images/Grey_Jainex_Amazon/Cushion_Kit/CKGREY1.png",
                 gallery: [
                     "images/Grey_Jainex_Amazon/Cushion_Kit/CKGREY1.png",
                     "images/Grey_Jainex_Amazon/Cushion_Kit/CKGREY2.png",
@@ -889,13 +894,13 @@ const products = [
             { 
                 name: "Beige", 
                 code: "#F5F5DC",
-                image: "images/Beige_Jainex_Amazon/Beige_Curved_NeckRest/CNRBEIGE1.png",
+                image: "images/Beige_Jainex_Amazon/Beige_Curved_NeckRest/CNRBEIGE5.png",
                 gallery: [
+                    "images/Beige_Jainex_Amazon/Beige_Curved_NeckRest/CNRBEIGE5.png",
                     "images/Beige_Jainex_Amazon/Beige_Curved_NeckRest/CNRBEIGE1.png",
                     "images/Beige_Jainex_Amazon/Beige_Curved_NeckRest/CNRBEIGE2.png",
                     "images/Beige_Jainex_Amazon/Beige_Curved_NeckRest/CNRBEIGE3.png",
-                    "images/Beige_Jainex_Amazon/Beige_Curved_NeckRest/CNRBEIGE4.png",
-                    "images/Beige_Jainex_Amazon/Beige_Curved_NeckRest/CNRBEIGE5.png"
+                    "images/Beige_Jainex_Amazon/Beige_Curved_NeckRest/CNRBEIGE4.png"          
                 ]
             },
             { 
@@ -925,7 +930,7 @@ const products = [
             { 
                 name: "Grey", 
                 code: "#808080",
-                image: "images/Grey_Jainex_Amazon/Curved_NeckRest/CNRGREY1.png",
+                image: "images/Grey_Jainex_Amazon/Curved_Neck_Rest/CNRGREY1.png",
                 gallery: [
                     "images/Grey_Jainex_Amazon/Curved_Neck_Rest/CNRGREY1.png",
                     "images/Grey_Jainex_Amazon/Curved_Neck_Rest/CNRGREY2.png",
@@ -978,24 +983,25 @@ const products = [
         reviewCount: 189,
         description: "Experience superior lumbar support with our ergonomically designed curved cushion. Helps maintain proper spinal alignment and reduces back pain during long hours of sitting.",
         // Default to first color's image
-        image: "images/Black_Jainex_Raw/Curved_Lumbar_Support/CLSBLACK1.png",
+        image: "images/Curved_Lumbor_Support/CLS1.png",
         // Color-specific images
         colors: [
             { 
                 name: "Black", 
                 code: "#000000",
-                image: "images/Curved_Lumbar_Support/CLSBLACK1.png",
+                image: "images/Curved_Lumbor_Support/CLS1.png",
                 gallery: [
-                    "images/Curved_Lumbar_Support/CLS1.png",
-                    "images/Curved_Lumbar_Support/CLS2.png",
-                    "images/Curved_Lumbar_Support/CLS3.png",
-                    "images/Curved_Lumbar_Support/CLS4.png",
-                    "images/Curved_Lumbar_Support/CLS5.png"
+                    "images/Curved_Lumbor_Support/CLS1.png",
+                    "images/Curved_Lumbor_Support/CLS2.png",
+                    "images/Curved_Lumbor_Support/CLS3.png",
+                    "images/Curved_Lumbor_Support/CLS4.png",
+                    "images/Curved_Lumbor_Support/CLS5.png",
+                    "images/Curved_Lumbor_Support/CLS6.png"
                 ]
             }
         ],
         // Set main image to first color's image
-        image: "images/Curved_Lumbar_Support/CLS1.png",
+        image: "images/Curved_Lumbor_Support/CLS1.png",
         description: "Experience ultimate comfort with our premium curved lumbar support, designed to provide perfect support for your back during travel or relaxation.",
         features: [
             "Ergonomic Back Support: Relieves pressure on the lumbar region, promoting a healthy posture.",
@@ -1959,31 +1965,60 @@ if (document.readyState === 'interactive' || document.readyState === 'complete')
     console.log('DOM already ready, initializing...');
     initializePage();
 }
-    
+
 // Initialize performance optimizations
 optimizePerformance();
 
-// Mobile menu toggle
-const navToggle = document.querySelector('.nav-toggle');
-const navLinks = document.querySelector('.nav-links');
-const navIcons = document.querySelector('.nav-actions');
+// Mobile Navigation Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    const navActions = document.querySelector('.nav-actions');
+    const navbar = document.querySelector('.navbar');
+    
+    // Initialize mobile menu state
+    if (navToggle) {
+        navToggle.setAttribute('aria-expanded', 'false');
+    }
 
-if (navToggle && navLinks && navIcons) {
-    navToggle.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-        navIcons.classList.toggle('active');
-        this.classList.toggle('active');
-    });
-}
-
-// Close mobile menu when clicking on a nav link
-const navItems = document.querySelectorAll('.nav-links a');
-navItems.forEach(item => {
-    item.addEventListener('click', () => {
-        if (navLinks && navLinks.classList.contains('active')) {
-            navLinks.classList.remove('active');
-            if (navIcons) navIcons.classList.remove('active');
-            if (navToggle) navToggle.classList.remove('active');
-        }
-    });
+    // Toggle mobile menu
+    if (navToggle && navLinks && navActions) {
+        navToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+            
+            // Toggle menu visibility
+            navLinks.classList.toggle('active');
+            navActions.classList.toggle('active');
+            navToggle.classList.toggle('active');
+            navbar.classList.toggle('menu-open');
+            
+            // Update aria-expanded for accessibility
+            navToggle.setAttribute('aria-expanded', String(!isExpanded));
+        });
+        
+        // Close menu when clicking on a nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                navActions.classList.remove('active');
+                navToggle.classList.remove('active');
+                navbar.classList.remove('menu-open');
+                navToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (navToggle.classList.contains('active') && 
+                !navbar.contains(e.target) && 
+                !e.target.matches('.nav-toggle')) {
+                navLinks.classList.remove('active');
+                navActions.classList.remove('active');
+                navToggle.classList.remove('active');
+                navbar.classList.remove('menu-open');
+                navToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
 });

@@ -1,25 +1,89 @@
-// Initialize all carousels when the DOM is loaded
+// Main carousel functionality
 document.addEventListener('DOMContentLoaded', function() {
-    // Add loading class to body to prevent FOUC
-    document.body.classList.add('carousel-loading');
-    
-    // Initialize carousels after a short delay to ensure DOM is ready
-    setTimeout(initCarousels, 100);
-});
-
-function initCarousels() {
-    // Initialize product carousels
-    const productCarousels = document.querySelectorAll('.product-carousel');
-    productCarousels.forEach(initProductCarousel);
-    
-    // Initialize shop by concern carousel if it exists
-    const concernsGrid = document.querySelector('.concerns-grid');
-    if (concernsGrid) {
-        initConcernsCarousel(concernsGrid);
+    // Initialize main image carousel
+    const carousel = document.querySelector('.carousel-container');
+    if (carousel) {
+        initMainCarousel();
     }
     
-    // Remove loading class when all carousels are initialized
-    document.body.classList.remove('carousel-loading');
+    // Initialize product carousels
+    const productCarousels = document.querySelectorAll('.product-carousel');
+    if (productCarousels.length > 0) {
+        productCarousels.forEach(initProductCarousel);
+    }
+});
+
+// Main hero carousel
+function initMainCarousel() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.carousel-dot');
+    const prevBtn = document.querySelector('.carousel-prev');
+    const nextBtn = document.querySelector('.carousel-next');
+    
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+    
+    // Show first slide by default
+    showSlide(currentSlide);
+    
+    // Auto-advance slides
+    let slideInterval = setInterval(nextSlide, 5000);
+    
+    // Event listeners
+    if (prevBtn) prevBtn.addEventListener('click', prevSlide);
+    if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+    
+    // Dot navigation
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            goToSlide(index);
+        });
+    });
+    
+    // Pause on hover
+    const carouselWrapper = document.querySelector('.carousel-wrapper');
+    if (carouselWrapper) {
+        carouselWrapper.addEventListener('mouseenter', () => {
+            clearInterval(slideInterval);
+        });
+        
+        carouselWrapper.addEventListener('mouseleave', () => {
+            clearInterval(slideInterval);
+            slideInterval = setInterval(nextSlide, 5000);
+        });
+    }
+    
+    // Functions
+    function showSlide(index) {
+        // Hide all slides
+        slides.forEach(slide => {
+            slide.style.display = 'none';
+            slide.classList.remove('active');
+        });
+        
+        // Update dots
+        dots.forEach(dot => dot.classList.remove('active'));
+        
+        // Show current slide and update dot
+        slides[index].style.display = 'flex';
+        slides[index].classList.add('active');
+        dots[index].classList.add('active');
+    }
+    
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        showSlide(currentSlide);
+    }
+    
+    function prevSlide() {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        showSlide(currentSlide);
+    }
+    
+    function goToSlide(index) {
+        currentSlide = index;
+        showSlide(currentSlide);
+    }
 }
 
 function initProductCarousel(carousel) {
